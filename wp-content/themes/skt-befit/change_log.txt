@@ -1,0 +1,36 @@
+Version 1.0
+i)  Intial version Release
+
+Version 1.1
+i)  Changes done as per bugs reported by reviewer
+
+Version 1.2
+i)   Changes made to content.php, footer.php and header.php for sanitize and escape data as reported by reviewer.  
+ii)  Resolved Social Link Issue.
+iii) Package declared in Blog-post.php
+
+Version 1.3
+i)   Solved get_theme_mod issue of header.php and footer.php
+ii)  Set number of slides 3 remove extra slides.
+
+Version 1.4
+i)   Changes done as per bugs reported by reviewer
+
+Version 1.5
+i)   Logo Dual Color.
+ii)  Change Screenshot Image.
+
+Version 2.0
+i)   As per rules changed front page settings. 
+
+Version 2.1
+i)    All instances of __()/_e() change with esc_html__()/esc_html_e() esc_attr__()/esc_attr_e()
+ii)   Resolved WooCommerce Issue
+iii)  Solved Front page displays issues and also remove dummy content when is set to Your latest posts. 
+iv)   Add Logo Uploaded Option Under Customizer Site Identity.
+v)    Set Upsell single link in customizer.
+vi)   Removed from customizer panels that do not actually provide any thing to the user.
+vii)  Change screenshot.png
+viii) Add about theme under Appearance.
+ix)   Resolved Page Content Line Height Issue. 
+x )   Resolved UI Issue.

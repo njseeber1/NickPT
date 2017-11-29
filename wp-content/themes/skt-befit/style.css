@@ -1,0 +1,120 @@
+/*
+Theme Name: SKT BeFit
+Theme URI:  https://www.sktthemes.net/shop/befit/
+Author: SKT Themes
+Author URI: https://www.sktthemes.net
+Description: BeFit is a simple, flexible fitness, personal trainer responsive WordPress theme catering to gym, yoga, pilates, muscular, health club, fitness, trainers and other alike businesses. It can be used for multipurpose use and is also suitable for photographers, business, corporate and other personal websites. Check demo at: http://sktthemesdemo.net/befit/
+
+Version: 2.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: skt-befit
+Tags: two-columns,right-sidebar,custom-background, custom-colors,custom-header,custom-menu,featured-images,full-width-template,sticky-post,theme-options,threaded-comments
+
+SKT BeFit WordPress Theme has been created by SKT Themes(sktthemes.net), 2017.
+SKT BeFit WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{ margin:0; padding:0;line-height:20px; font:12px arial; background-color: #111111;}
+*{ margin:0; padding:0;}
+img{ border:none; margin:0; padding:0; height:auto}
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .aligncenter{ margin:0 auto; padding:0; display:block; text-align:center;}
+p{ margin:0; padding:0;}
+.postmeta a:hover, a, #footer .widget-column a:hover, #copyright a:hover{ text-decoration:none; color:#0ec7ab;}
+dfn, cite, em, i{font-style: italic;}
+blockquote{border: 0 solid #1a1a1a; border-left-width: 4px; color: #686868; font-size: 19px; font-size: 1.1875rem; font-style: italic; line-height: 1.4736842105; margin: 0 0 1.4736842105em; overflow: hidden; padding: 0 0 0 1.263157895em;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after{content: "";}
+blockquote p{margin-bottom: 1.4736842105em;}
+blockquote cite, blockquote small {color: #1a1a1a; display: block; font-size: 16px; font-size: 1rem; line-height: 1.75;}
+blockquote cite:before,
+blockquote small:before{content: "\2014\00a0";}
+blockquote em, blockquote i, blockquote cite{font-style: normal;}
+blockquote strong, blockquote b{font-weight: 400;}
+blockquote > :last-child{margin-bottom: 0;}
+address{font-style: italic; margin: 0 0 1.75em;}
+
+code, kbd, tt, var, samp, pre{font-family: Inconsolata, monospace;}
+pre{border: 1px solid #d1d1d1; font-size: 16px; font-size: 1rem; line-height: 1.3125; margin: 0 0 1.75em; max-width: 100%; overflow: auto; padding: 1.75em; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+code{background-color: #d1d1d1; padding: 0.125em 0.25em;}
+abbr, acronym{border-bottom: 1px dotted #d1d1d1; cursor: help;}
+mark, ins{background: #007acc; color: #fff; padding: 0.125em 0.25em; text-decoration: none;}
+big{font-size: 125%;}
+
+/**
+ * 4.0 - Elements
+ */
+
+html {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*,
+*:before,
+*:after {-webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit;}
+hr{background-color: #d1d1d1; border: 0; height: 1px; margin: 0 0 1.75em;}
+ul, ol{margin: 0 0 1.75em 1.25em; padding: 0;}
+ul{list-style: disc;}
+ol{list-style: decimal; margin-left: 1.5em;}
+li > ul, li > ol {margin-bottom: 0;}
+dl{margin: 0 0 1.75em;}
+dt{font-weight: 700;}
+dd{margin: 0 0 1.75em;}
+img{height: auto; max-width: 100%; vertical-align: middle;}
+del{opacity: 0.8;}
+table, th, td{border: 1px solid #d1d1d1;}
+table{border-collapse: separate; border-spacing: 0; border-width: 1px 0 0 1px; margin: 0 0 1.75em; table-layout: fixed; width: 100%;}
+#wp-calendar caption{text-align:center; padding-bottom:20px;}
+caption, th, td{font-weight: normal; text-align: left;}
+th{border-width: 0 1px 1px 0; font-weight: 700;}
+td{border-width: 0 1px 1px 0;}
+th, td{padding: 0.4375em;}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder{color: #686868; font-family: Montserrat, "Helvetica Neue", sans-serif;}
+:-moz-placeholder{color: #686868; font-family: Montserrat, "Helvetica Neue", sans-serif;}
+::-moz-placeholder{color: #686868; font-family: Montserrat, "Helvetica Neue", sans-serif; opacity: 1;}
+:-ms-input-placeholder{color: #686868; font-family: Montserrat, "Helvetica Neue", sans-serif;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+.clear{clear:both;}
+.alignnone{width:auto;}
+img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
+img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+/* ------ Woocommerce ------- */
+select.orderby{ margin:0; padding:0; height:35px; font:14x 'PT Sans', Helvetica, sans-serif; color:#4e4e4e; border:1px solid #cccccc;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:#7ab040 !important;}
+
+.team_links{text-align:center; padding:10px 0; border-top:1px #fff solid;}
+.member_info{background:#f6f6f6; text-align:center; margin-top:10px;}
+.member_dtl{padding:15px;}
+.member_dtl p{ margin:5px 0 !important;}
+
+.mobile_nav a{background:url(images/mobile_nav_right.png) no-repeat right center #f6f6f6; border:1px #ccc solid; margin:4px 0 0; padding:8px 20px; display:none; font:400 20px 'Roboto Condensed',san-serif; position:relative;}
+
+.pagination{display:table; clear:both; margin-top:30px;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#313131; color:#fff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#0ec7ab;}
+.pagination h2{display:none;}
+
+#comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
+ol.comment-list li{ list-style:none; margin-bottom:20px;}
+.comment-content{line-height:22px;}
+#comments h2{margin-bottom:10px;}
+
+.spacer10{height:10px; clear:both;}
+.spacer20{height:20px; clear:both;}
+.spacer40{height:40px; clear:both;}
+.spacer80{height:80px; clear:both;}
+.text-404{color:#FFF; margin-bottom:20px;}
+
+.page-numbers{display: inline-block; padding: 5px 10px; margin: 0 2px 0 0; border: 1px solid #eee; line-height: 1; text-decoration: none; border-radius: 2px; font-weight: 600;}
+.page-numbers.current,
+a.page-numbers:hover{background: #f9f9f9;}
+
+#content .entry-content ul, #content .entry-content ol{margin-left:15px;}
+aside select{width:100%;}
+
+.screen-reader-text {clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute; width: 1px;}
+.screen-reader-text:focus{background-color: #f1f1f1; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); clip: auto; color: #21759b; display: block; font-size: 0.875rem; font-weight: bold; height: auto; left: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000;}
+body.single-product{color:#FFF !important;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{color: #515151 !important;}
